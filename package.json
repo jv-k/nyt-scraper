@@ -1,0 +1,32 @@
+{
+  "name": "nyt-scraper",
+  "version": "0.1.0",
+  "description": "Read articles from behind NYT's paywall",
+  "author": "John Valai git@jvk.to",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js $1"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jv-k/nyt-scraper.git"
+  },
+  "bin": "./index.js",
+  "keywords": [
+    "New York Times",
+    "Paywall",
+    "Scraper"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
